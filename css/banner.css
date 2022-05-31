@@ -1,0 +1,41 @@
+.banner {
+    background: url('../images/banner-bg.jpg') no-repeat center center / cover;
+    min-height: 100vh;
+}
+
+.banner-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.banner-wrapper h6 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+
+.banner-wrapper h1 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.banner-wrapper p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #CACCD1;
+    margin-top: 9px;
+}
+
+.banner-btns{
+    display: none;
+}

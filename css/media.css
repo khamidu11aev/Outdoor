@@ -1,0 +1,405 @@
+@media (max-width:991px) {
+    .header-logo {
+        order: 0;
+    }
+
+    .navbar-toggler {
+        order: 2;
+
+    }
+
+    .header-btns {
+        order: 1;
+        margin-left: auto;
+        margin-right: 13px;
+    }
+
+    .navbar-custom {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 100%;
+        background: white;
+    }
+}
+
+@media (max-width:962px) {
+    .navigating-card-img {
+        height: auto;
+    }
+}
+
+@media (max-width:958px) {
+    .banner{
+        min-height: auto;
+        background-position: right;
+        padding-bottom: 30px;
+    }
+    .banner-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        margin-bottom: 25px;
+    }
+
+
+    .navigating-wrapper{
+        text-align: center;
+    }
+
+    .navigating-wrapper>.row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navgating-card-img{
+        margin-top: 25px;
+    }
+
+    .person {
+        margin-bottom: 18px;
+    }
+    .magazine-title{
+        margin: auto;
+        text-align: left;
+        padding: 12px 0 24px 0;
+    }
+
+
+    .magazine-wrapper>.row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+        flex-grow: 1;
+        flex-basis: auto;
+    }
+
+    .footer-list h6{
+        text-align: left;
+    }
+
+    .footer-form{
+        margin: auto;
+    }
+}
+
+
+@media (max-width:796px){
+    .about-inner{
+        margin-left: 46px;
+    }
+
+    .magazine-wrapper{
+        margin-top: 10px;
+        padding: 30px 0 30px 0;
+    }
+
+    .magazine-title{
+        margin-bottom: 80px;
+        margin-left: auto;
+    }
+
+    .footer{
+        padding: 45px 36px 45px 36px;
+    }
+}
+
+@media (max-width:767px) {
+    .magazine-title {
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width:612px) {
+    .shop-inner>ul {
+        flex-wrap: wrap;
+    }
+
+    .shop-inner li {
+        width: 48%;
+    }
+}
+
+@media (max-width:559px){
+    .footer-list{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width:568px) {
+    .shop-inner li {
+        width: 100%;
+    }
+}
+
+
+@media (max-width:541px){
+    .about-inner{
+        margin: auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .products-wrapper{
+        margin-top: auto;
+    }
+
+    .store-wrapper{
+        margin-top: auto;
+        margin: 14px;
+    }
+
+    .visit{
+        height: auto;
+        padding: 0 0 25px 0;
+    }
+
+    .navigating-wrapper{
+        margin-top: auto;
+        margin: 27px;
+    }
+}
+
+@media (max-width:532px){
+    .header-btns{
+        margin-right: 18px;
+        gap: 8px;
+    }
+}
+
+@media (max-width:530px) {
+    button.header-cart{
+        display: none;
+    }
+}
+
+@media (max-width:456px) {
+    .banner-wrapper h6{
+        font-size: 16px;
+    }
+    .banner-wrapper h1{
+        font-size: 40px;
+    }
+    .banner-wrapper p{
+        font-size: 14px;
+    }
+
+    .about-inner h3{
+        font-size: 24px;
+    }
+
+    .about-inner p{
+        font-size: 14px;
+    }
+
+    .products-wrapper h2{
+        font-size: 24px;
+    }
+
+    .products-wrapper p{
+        font-size: 12px;
+    }
+
+    .product-card h3{
+        font-size: 18px;
+    }
+
+    .product-card p{
+        font-size: 12px;
+    }
+
+    .store-wrapper h2{
+        font-size: 24px;
+    }
+
+    .store-wrapper p{
+        font-size: 12px;
+    }
+
+    .store-card h3{
+        font-size: 24px;
+    }
+
+    .store-card p{
+        font-size: 14px;
+    }
+
+    .card-view a{
+        font-size: 12px;
+    }
+
+    .visit-wrapper h3{
+        font-size: 24px;
+    }
+
+    .visit-wrapper p{
+        font-size: 12px;
+    }
+
+    .visit-btn a{
+        font-size: 12px;
+    }
+
+    .navigating-wrapper h2{
+        font-size: 24px;
+    }
+
+    .navigating-wrapper p{
+        font-size: 11px;
+    }
+
+    .navigating-card{
+        height: auto;
+        margin-bottom: 5px;
+    }
+
+    .navigating-card p{
+        font-size: 14px;
+    }
+
+    .magazine-title h6{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .magazine-title h2{
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .magazine-title p{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .magazine-more a{
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer{
+        padding: 24px 0;
+    }
+
+    .footer-list{
+        margin-top: 15px;
+    }
+
+    .footer-pages{
+        margin-bottom: 20px;
+    }
+    .email {
+        width: 100%;
+        padding-right: 104px;
+    }
+
+}
+
+@media (max-width:392px){
+    button.header-buy{
+        display: none;
+    }
+}
+@media (max-width:325px) {
+    .navbar>.container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-btns {
+        display: none;
+        position: absolute;
+    }
+
+    .banner-wrapper{
+        margin-bottom:15px;
+        text-align: center;
+    }
+    .banner-btns{
+        padding: 0 0 15px 0;
+        display: flex;  
+    }
+
+    .banner-btns >button{
+        font-family: 'Poppins';
+        padding: 0 20px;
+        height: 34px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: max-content;
+        margin: 0 auto;
+        background: #575445 !important;
+        border-radius: 6px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+        border: none;
+    }
+    
+    
+    
+    .banner-cart{
+        display: flex;
+        gap: 8px;
+    }
+    
+    .banner-numb {
+        text-align: center;
+        padding: 16px 0 0 0;
+        background: #FFFFFF;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        color: #575445;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .email {
+        width: 453px;
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width:308px){
+    .submit {
+        position: absolute;
+        background: #575445;
+        border-radius: 10px;
+        height: 39px;
+        padding: 0 11px;
+        border:none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: max-content;
+        margin: 0 auto;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+        top:7px;
+        right: 7px;
+    }
+}

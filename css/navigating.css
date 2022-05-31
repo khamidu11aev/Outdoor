@@ -1,0 +1,148 @@
+.navigating-wrapper {
+    margin-top: 100px;
+}
+
+.navigating-wrapper h6 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+
+.navigating-wrapper h2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #575445;
+}
+
+.navigating-wrapper p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #575445;
+    margin-top: 7px;
+    margin-bottom: 21px;
+}
+.navigating-card{
+    width: 568px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.navigating-card-img {
+    max-width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 400ms;
+}
+
+.navigating-card-img:hover img{
+    transform: scale(1.1);
+}
+
+.navigating-card-img img {
+    max-width: max-content;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 400ms;
+}
+
+.navigating-card > p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #575445;
+    margin-top: 18px;
+}
+
+.navigating-person {
+    display: flex;
+    margin-top: 12px;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+
+.person {
+    display: flex;
+}
+
+.person-img {
+    width: 50px;
+    height: 50px;
+}
+
+.person-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.person-title {
+    margin-left: 12px;
+
+}
+
+.person-title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #575445;
+}
+
+.person-title p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color: #E6B939;
+}
+
+.navigating-date p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #6F7278;
+}
+
+
+.navigating-show {
+    width: 230px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 26px;
+}
+
+.navigating-show a{
+    font-family: 'Poppins';
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #575445; 
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navigating-show a span{
+    transition: 350ms;
+}
+
+.navigating-show a:hover span{
+    margin-right: 12px;
+}

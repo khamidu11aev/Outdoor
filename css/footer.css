@@ -1,0 +1,149 @@
+.footer {
+    background: #575445;
+    padding: 100px 36px 96px 36px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-list {
+    margin-top: 76px;
+    gap: 16px;
+}
+
+.footer-pages {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+
+.footer-pages h6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+
+.footer-pages ul li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footer-pages ul li a:hover {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #E6B939;
+}
+
+.footer-form h6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 458px;
+}
+
+.footer-form p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FAFAFC;
+}
+
+
+.form {
+    position: relative;
+    display: flex;
+}
+
+form {
+    position: relative;
+    width: 100%;
+    height: 54px;
+}
+
+.email {
+    width: 453px;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    height: 53px;
+    padding: 16px 102px 16px 21px;
+    outline: none;
+    position: absolute;
+    max-width: 100%;
+}
+
+.submit {
+    position: absolute;
+    background: #575445;
+    border-radius: 10px;
+    height: 39px;
+    padding: 0 11px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: max-content;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    top: 7px;
+    right: 7px;
+}
+
+.footer-text {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footer-social{
+    display: flex;
+    margin-top: 26px;
+}
+
+.footer-social .list:not(:first-child){
+    margin-left: 20px;
+}
+
+.footer-social i{
+    font-size: 24px;
+}

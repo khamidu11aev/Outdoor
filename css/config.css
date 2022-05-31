@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6,ul,li,label,p{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+.container-lg{
+    max-width: 1200px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.container-md{
+    max-width: 1168px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+
+.icon-Path{
+    margin-left: 4px;
+    margin-top: 4px;
+}

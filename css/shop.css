@@ -1,0 +1,51 @@
+.shop {
+    background-image: url('../images/shop-bg.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.shop-wrapper {
+    margin-top: 100px;
+}
+
+.shop-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 95vh;
+}
+
+.shop-list .shop-inner {
+    display: flex;
+    background: #292C32;
+    border-radius: 16px;
+    padding: 16px 22px;
+}
+
+.shop-inner>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.shop-text{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 8px;
+    
+}
+
+.shop-inner i span{
+    border-bottom: 1px solid transparent;
+    transition: 350ms;
+}
+
+.shop-inner i:hover span{
+    border-bottom: 1px solid #FFFFFF;
+}

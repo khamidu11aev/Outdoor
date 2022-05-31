@@ -1,0 +1,70 @@
+.magazine-wrapper {
+    margin-top: 200px;
+}
+
+.magazine-img {
+    width: 576px;
+    height: 576px;
+    max-width: 100%;
+}
+
+.magazine-img img {
+    max-width: max-content;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.magazine-title {
+    margin-top: 153px;
+    margin-left: 104px;
+}
+
+
+.magazine-title h6 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+
+.magazine-title h2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #575445;
+    margin-bottom: 7px;
+}
+
+.magazine-title p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #575445;
+    margin-bottom: 20px;
+}
+
+.magazine-more a {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #575445;
+    display: flex;
+    align-items: center;
+}
+
+.magazine-more a span{
+    transition: 400ms;
+}
+
+.magazine-more a:hover span{
+    margin-right: 12px;
+}
